@@ -11,16 +11,24 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Espacio igual entre columnas */
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.tools01 {
+
+.tools01{
   display: flex;
 }
 
-.tools0 {
-  padding-right: 80px;
+
+.tools0, .tools1 {
+  padding: 0;
+  /* puedes ponerles un ancho fijo o relativo, por ejemplo */
+  width: 45%; /* o el % que quieras que ocupen */
 }
+
+
 
 .left-column {
   width: 30%;
