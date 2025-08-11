@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tools01{
+  display: flex;
+}
+
+.tools0{
+  padding-right: 80px;
+}
+
+.left-column {
+  width: 30%;
+  background-color: #003366;
+  color: white;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-column h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.left-column h3 {
+  margin-top: 0;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.profile-img {
+width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  margin: 0 auto 10px auto; /* Centra horizontalmente y deja 10px abajo */
+  display: block; /* Necesario para que 'margin: auto' funcione */
+  border: 4px solid #fff;
+}
+
+.left-column p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.left-column h4 {
+  font-size: 1.2em;
+  margin-top: 20px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+.left-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.left-column li {
+  margin-bottom: 10px;
+}
+
+.left-column a {
+  color: white;
+  text-decoration: none;
+}
+
+.left-column a:hover {
+  text-decoration: underline;
+}
+
+.right-column {
+  width: 65%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.right-column h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+
+}
+
+.right-column ul, .right-column ol {
+  list-style: none;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.right-column li {
+  margin-bottom: 10px;
+}
+
+.right-column li strong {
+  font-weight: 600;
+  color: #003366;
+}
+
+.right-column ul li {
+  font-size: 1.1em;
+}
+
+.right-column ul li::before {
+  content: "•";
+  color: #003366;
+  padding-right: 10px;
+}
+
+.contact-info p, .additional-info ul, .tools ul, .languages ul {
+  margin-bottom: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tools01{
+  display: flex;
+}
+
+.tools0{
+  padding-right: 80px;
+}
+
+.left-column {
+  width: 30%;
+  background-color: #003366;
+  color: white;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-column h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.left-column h3 {
+  margin-top: 0;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.profile-img {
+width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  margin: 0 auto 10px auto; /* Centra horizontalmente y deja 10px abajo */
+  display: block; /* Necesario para que 'margin: auto' funcione */
+  border: 4px solid #fff;
+}
+
+.left-column p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.left-column h4 {
+  font-size: 1.2em;
+  margin-top: 20px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+.left-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.left-column li {
+  margin-bottom: 10px;
+}
+
+.left-column a {
+  color: white;
+  text-decoration: none;
+}
+
+.left-column a:hover {
+  text-decoration: underline;
+}
+
+.right-column {
+  width: 65%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.right-column h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+
+}
+
+.right-column ul, .right-column ol {
+  list-style: none;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.right-column li {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.right-column li strong {
+  font-weight: 600;
+  color: #000000;
+}
+
+.right-column ul li {
+  font-size: 1.1em;
+}
+
+.right-column ul li::before {
+  content: "•";
+  color: #003366;
+  padding-right: 10px;
+}
+
+.contact-info p, .additional-info ul, .tools ul, .languages ul {
+  margin-bottom: 15px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-column {
+        max-width: 100%;
+    }
+}
